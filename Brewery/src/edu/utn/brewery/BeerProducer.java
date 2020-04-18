@@ -15,5 +15,6 @@ public class BeerProducer implements Runnable {
         while (beerhouse.getStock() != 0) {
             beerhouse.addStock(this.name);
         }
+        System.out.println(this.name + ": Tread finished");
     }
 }

@@ -21,7 +21,7 @@ public class BeerHouse {
             }
             if (getStock() != 0) {
                 this.stock += 1;
-                Thread.sleep(250);
+                //Thread.sleep(250);
                 System.out.println(name + ", produced a beer for " + this.getCompanyName() + ", stock: " + this.getStock());
             }
             notifyAll();
@@ -32,9 +32,7 @@ public class BeerHouse {
 
     public synchronized void consumeStock(String name) {
         // In this example the tread is going to stop, because should stop when stock is 0 .
-        if (this.getStock() == 0) {
-            System.out.println("This thread finished");
-        } else {
+        if (this.getStock() != 0) {
             this.stock -= 1;
             System.out.println(name + " drank a beer in " + this.getCompanyName() + ", stock:" + this.getStock());
         }

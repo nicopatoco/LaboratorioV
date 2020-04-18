@@ -15,6 +15,7 @@ public class BeerConsumer extends Thread {
         while (beerhouse.getStock() != 0) {
             beerhouse.consumeStock(this.name);
         }
+        System.out.println(this.name + ": Tread finished");
     }
 
 }
