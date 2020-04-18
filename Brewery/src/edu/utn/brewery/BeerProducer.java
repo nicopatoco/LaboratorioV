@@ -10,15 +10,10 @@ public class BeerProducer implements Runnable {
         this.name = name;
     }
 
-    public void produce() {
-        beerhouse.addStock();
-        System.out.println(name + ", produced a beer for " + beerhouse.getCompanyName() + ", stock: " + beerhouse.getStock());
-    }
-
     @Override
     public void run() {
         while (beerhouse.getStock() != 0) {
-            produce();
+            beerhouse.addStock(this.name);
         }
     }
 }

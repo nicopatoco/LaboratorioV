@@ -10,15 +10,10 @@ public class BeerConsumer extends Thread {
         this.name = name;
     }
 
-    public void consumir() {
-        beerhouse.consumeStock();
-        System.out.println(name + " drank a beer in " + beerhouse.getCompanyName() + ", stock:" + beerhouse.getStock());
-    }
-
     @Override
     public void run() {
         while (beerhouse.getStock() != 0) {
-            consumir();
+            beerhouse.consumeStock(this.name);
         }
     }
 

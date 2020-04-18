@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
         //Brewery
-        BeerHouse beerHouse1 = new BeerHouse("Antares SA.",100, 30, "Honey");
+        BeerHouse beerHouse1 = new BeerHouse("Antares SA.", 100, 50, "Honey");
         BeerHouse beerHouse2 = new BeerHouse("Cheverry SA.",100, 30, "AAA");
 
         //Producers
-        Thread producer1 = new Thread(new BeerProducer(beerHouse2, "Antares"));
-        Thread producer2 = new Thread(new BeerProducer(beerHouse1, "Cheverry"));
+        Thread producer1 = new Thread(new BeerProducer(beerHouse1, "Cheverry"));
+        Thread producer2 = new Thread(new BeerProducer(beerHouse2, "Antares"));
 
         //Consumers
         BeerConsumer consumer1 = new BeerConsumer(beerHouse1, "Pablo");

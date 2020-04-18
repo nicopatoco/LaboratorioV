@@ -14,27 +14,30 @@ public class BeerHouse {
         setTypeOfBeer(typeOfBeer);
     }
 
-    public synchronized void addStock() {
-        while (this.isFull()) {
-            try {
+    public synchronized void addStock(String name) {
+        try {
+            while (isFull()) {
                 wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
+            if (getStock() != 0) {
+                this.stock += 1;
+                Thread.sleep(250);
+                System.out.println(name + ", produced a beer for " + this.getCompanyName() + ", stock: " + this.getStock());
+            }
+            notifyAll();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-        this.stock += 1;
-        notifyAll();
     }
 
-    public synchronized void consumeStock() {
-        while (this.getStock() == 0) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+    public synchronized void consumeStock(String name) {
+        // In this example the tread is going to stop, because should stop when stock is 0 .
+        if (this.getStock() == 0) {
+            System.out.println("This thread finished");
+        } else {
+            this.stock -= 1;
+            System.out.println(name + " drank a beer in " + this.getCompanyName() + ", stock:" + this.getStock());
         }
-        this.stock -= 1;
         notifyAll();
     }
 
@@ -46,12 +49,12 @@ public class BeerHouse {
         return this.stock;
     }
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
-
     public String getCompanyName() {
         return companyName;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 
     public void setStock(int stock) {
@@ -67,6 +70,6 @@ public class BeerHouse {
     }
 
     public boolean isFull() {
-        return this.getStock() >= this.getCapacity();
+        return this.getStock() == this.getCapacity();
     }
 }
