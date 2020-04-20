@@ -1,0 +1,25 @@
+# Documentacion del trabajo.
+
+# ¿Cuántos consumidores se necesitan?
+
+En este caso en particular, necesito un mínimo de 2 consumidores para llegar a stock 0, de manera tal que el consumo sea mayor que la producción.
+Podría darse el caso que con un solo consumidor se llegue a stock 0, por ejemplo si aplicara una prioridad mayor al consumidor que al productor.
+
+# Bloques synchronized, ¿ por qué usarlos?
+
+En este caso utilicé bloques synchronized en producir una cerveza y en consumir una.
+Es sumamente necesario evitar el acceso múltiple a producción y consumo ya que de otra manera se alterarían los valores reales de consumo y producción.
+
+# Recurso compartido
+
+El recurso compartido en este caso será la unidad de cerveza creada y consumida.
+En mi ejemplo de la clase Main muestro como una cervecería “Antares” procede para otra cervecería “Cheverry” y viceversa. Mientras que los consumidores, personas que frecuentan los bares, irán consumiendo del producto en paralelismo a la produccion .
+
+# Tres formas de crear Threads.
+En mi trabajo, mostré como ejecutar dos de ellas.
+1)Implementando la clase runnable, lo cual me permitida poder Heredar de otra clase e implementes mas interfaces.
+Instanciacion : new Thread ( new ClaseNueva() ) 
+2) Extender directamente de la clase Thread, impidiendo poder Heredar de otra clase.
+Instanciacion : new ClaseNueva(). 
+3) En caso de que Herede de una clase que implementa runnable, este es un caso muy particular de los frameworks de Java.
+
