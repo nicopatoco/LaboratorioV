@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84bf0a4-3df0-47d1-bffb-64fcd51fc96b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingletonPattern/SingletonPattern.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Brewery/edu/utn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Brewery/edu/utn/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Brewery/edu/utn/brewery/BeerHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Brewery/edu/utn/brewery/BeerHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/utn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/utn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/utn/brewery/BeerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/utn/brewery/BeerConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/utn/brewery/BeerHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/utn/brewery/BeerHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/utn/brewery/BeerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/utn/brewery/BeerProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,9 +123,10 @@
     </state>
     <state width="1634" height="320" key="GridCell.Tab.1.right/0.23.1680.965@0.23.1680.965" timestamp="1587239966235" />
     <state width="1634" height="320" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1587234732863" />
-    <state x="519" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1587240751342">
-      <screen x="0" y="23" width="1680" height="965" />
+    <state x="519" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1587402018344">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
+    <state x="519" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1587402018344" />
     <state x="519" y="338" key="com.intellij.ide.util.TipDialog/0.23.1680.965@0.23.1680.965" timestamp="1587240751342" />
     <state x="503" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1587238781944">
       <screen x="0" y="23" width="1680" height="967" />

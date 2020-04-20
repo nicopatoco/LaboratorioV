@@ -21,7 +21,6 @@ public class BeerHouse {
             }
             if (getStock() != 0) {
                 this.stock += 1;
-                //Thread.sleep(250);
                 System.out.println(name + ", produced a beer for " + this.getCompanyName() + ", stock: " + this.getStock());
             }
             notifyAll();
