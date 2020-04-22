@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f84bf0a4-3df0-47d1-bffb-64fcd51fc96b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/utn/brewery/BeerHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/utn/brewery/BeerHouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -61,6 +63,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587423368710">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.960@0.23.1680.960" timestamp="1587423368710" />
     <state x="567" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1587236067747">
       <screen x="0" y="23" width="1680" height="967" />
     </state>
@@ -123,11 +129,20 @@
     </state>
     <state width="1634" height="320" key="GridCell.Tab.1.right/0.23.1680.965@0.23.1680.965" timestamp="1587239966235" />
     <state width="1634" height="320" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1587234732863" />
-    <state x="519" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1587402018344">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state x="327" y="83" key="SettingsEditor" timestamp="1587423657844">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="327" y="83" key="SettingsEditor/0.23.1680.965@0.23.1680.965" timestamp="1587423657844" />
+    <state x="519" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1587423233754">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="519" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1587402018344" />
+    <state x="519" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1587423233754" />
     <state x="519" y="338" key="com.intellij.ide.util.TipDialog/0.23.1680.965@0.23.1680.965" timestamp="1587240751342" />
+    <state x="505" y="231" key="run.anything.popup" timestamp="1587423652625">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="505" y="231" key="run.anything.popup/0.23.1680.965@0.23.1680.965" timestamp="1587423652625" />
     <state x="503" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1587238781944">
       <screen x="0" y="23" width="1680" height="967" />
     </state>
